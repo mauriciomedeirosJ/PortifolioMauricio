@@ -1,0 +1,103 @@
+.circle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    margin-right: 4%;
+}
+
+.circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+* h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+* h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+* h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+.bg-semilight{
+    background-color: #e6e6e6;
+}
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  .header{
+    z-index: 1;
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+  }
+/* Home */
+#sectionHeader {
+  background-image: url(bg.jpeg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#sectionHeader h1 {
+  margin-top: 35vh;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#sectionHeader h3 {
+  margin-top: 20px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+.bg-gunmetal{
+  background-color: #233237
+}
+.bg-rusty-red{
+  background-color: #984B43
+}
+.bg-navy-blue{
+  background-color: #18121e
+}
+.title {
+  text-align: center;
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+}
+.nav-pills .nav-link.active{
+  background-color: #696969;
+}
+html {
+  scroll-behavior: smooth;
+}
